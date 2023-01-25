@@ -7,7 +7,15 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      children: [
+        { path: '/segunda', component: () => import('../views/Segunda.vue') },
+        { path: '/terca', component: () => import('../views/Terca.vue') },
+        { path: '/quarta', component: () => import('../views/Quarta.vue') },
+        { path: '/quinta', component: () => import('../views/Quinta.vue') },
+        { path: '/sexta', component: () => import('../views/Sexta.vue') },
+        { path: '/sabado', component: () => import('../views/Sabado.vue') },
+      ]
     },
     {
       path: '/sobre',
@@ -16,45 +24,7 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/sobre.vue')
-    },
-    {
-      path: '/terapias',
-      name: 'terapias',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/terapias.vue'),
-      children: [ 
-        { path: '', name: 'indexTerapia', component:  ()=> import('../views/terapias/index.vue') },
-        {path: 'acupuntura', component: ()=> import('../views/terapias/acupuntura.vue') },
-        {path: 'auriculoterapia', component: ()=> import('../views/terapias/auriculoterapia.vue') },
-        {path: 'craniopuntura', component: ()=> import('../views/terapias/craniopuntura.vue') },
-        {path: 'ventosaterapia', component: ()=> import('../views/terapias/ventosaterapia.vue') },
-    ]
-    },
-    {
-      path: '/blog',
-      name: 'blog',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/blog/index.vue'),
-    },
-    {
-      path: '/blog/auriculoterapia-visao-oriental-ocidental',
-      name: 'blog/auriculoterapia-visao-oriental-ocidental',
-      component: () => import('../views/blog/auriculoterapiaVisaoOrientalOcidental.vue'),
-    },
-    {
-      path: '/blog/o-que-e-acupuntura',
-      name: 'blog/o-que-e-acupuntura',
-      component: () => import('../views/blog/oQueEAcupuntura.vue'),
-    },
-    {
-      path: '/blog/lombalgia-tai-yang',
-      name: 'blog/lombalgia-tai-yang',
-      component: () => import('../views/blog/lombalgiaTaiYang.vue'),
-    },
+    }
   ]
 })
 

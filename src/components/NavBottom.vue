@@ -11,6 +11,10 @@ export default {
 <template>
   <div>
     <div class="nav-bottom">
+      <RouterLink to='/' @click.native="scrollToTop()">
+        <i class="fa-solid fa-house"></i>
+        <h5>INÍCIO</h5>
+      </RouterLink >
       <a href='https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20Sessão%20agora!' @click.native="scrollToTop()">
         <i class="fa-brands fa-whatsapp"></i>
         <h5>WHATSAPP</h5>

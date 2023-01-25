@@ -6,6 +6,7 @@
           
           <br>
           <div>
+            <h2 class='hCincoTwo' style='margin-right: 10px; text-align: center;'>Agenda</h2>
             <h5 class='hCincoTwo' style='margin-right: 10px;'>Horários Livres:</h5>
           </div>
           <div class='main-four'>
@@ -19,20 +20,28 @@
               <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rSegunda'></h4>
 
             </RouterLink>
+            <RouterLink to="/terca">
+              <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rTerca'></h4>
 
-            <h4 class='dot-index' :class='{ selectTitleHover: aplicarTwo }' v-html='rTerca'></h4>
-            <h4 class='dot-index' :class='{ selectTitleHover: aplicarFive }' v-html='rQuarta'></h4>
-            <h4 class='dot-index' :class='{ selectTitleHover: aplicarTree }' v-html='rQuinta'>
-            </h4>
-            <h4 class='dot-index' :class='{ selectTitleHover: aplicarFour }' v-html='rSexta'></h4>
-            <h4 class='dot-index' :class='{ selectTitleHover: aplicarSix }' v-html='rSabado'></h4>
-            <div class="hr"></div>
-            <!--Distúrbios ginecológicos
-              Distúrbios gastrointestinais
-              Distúrbios alérgicos
-              Distúrbios imunológicos -->
+            </RouterLink>
+            <RouterLink to="/quarta">
+              <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rQuarta'></h4>
+
+            </RouterLink>
+            <RouterLink to="/quinta">
+              <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rQuinta'></h4>
+
+            </RouterLink>
+            <RouterLink to="/sexta">
+              <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rSexta'></h4>
+
+            </RouterLink>
+            <RouterLink to="/sabado">
+              <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rSabado'></h4>
+
+            </RouterLink>
+
             </div>
-<RouterView/>
 
     <!-- <div class='divider'></div> -->
 
@@ -51,32 +60,6 @@
     
   -->
     
-    <div class='main-tree'>
-      <div>
-        <h5><i class="fa-solid fa-map-location"></i> Localização</h5>
-      </div>
-    </div>
-
-
-    <div class='main-four'>
-      <div class='main-four-card'>
-        <p>
-          Rua da Conceição, 125 - Center Offices - sala: 1005 - Centro - Niterói -Rio de Janeiro - CEP: 24020-085
-        </p>
-      </div>
-      <iframe class='body-map'
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5096784506004!2d-43.12292232898354!3d-22.89456440314661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983b5d0974f89%3A0xd5dcb4494da04cac!2sDeep%20Acupuntura!5e0!3m2!1spt-BR!2sbr!4v1647055905172!5m2!1spt-BR!2sbr"
-        style="border:0;" margin="auto;" allowfullscreen="" loading="lazy"></iframe>
-
-    </div>
-    <div class='hr'></div>
-    <!--
-     <div class='hr'></div>
-     -->
-    <br>
-    <br>
-    <br>
-    <br>
 
   </div>
 
@@ -113,31 +96,6 @@ export default {
   },
   data() {
       return {
-          aplicar : '',
-          output: '',
-          aplicarAcu: '',
-          aplicarAur: '',
-          aplicarVen: '',
-          aplicarForm: '',
-          aplicarGua: '',
-          aplicarCran: '',
-          aplicarAcu: '',
-          aplicarAur: '',
-          aplicarVen: '',
-          aplicar: '',
-          aplicarTwo: '',
-          aplicarTree: '',
-          aplicarFour: '',
-          aplicarFive: '',
-          aplicarSix: '',
-          aplicarSeven: '',
-          aplicarEight: '',
-          aplicarNine: '',
-          aplicarTen: '',
-          aplicarEleven: '',
-          aplicarTwelve: '',
-          aplicarThirteen:'' ,
-          aplicarFourteen: '',
           rSegunda:'Segunda',
           rTerca:'Terça',
           rQuarta:'Quarta',
@@ -1218,9 +1176,8 @@ code {
   padding: 0 15px 0 0;
 }
 
-a.nuxt-link-exact-active {
-  background-color: #e23a2890;
-  color: #fff;
+a.router-link-exact-active {
+  color: #f00;
   border-radius: 0% 10% 10% 10%;
 }
 
@@ -1334,7 +1291,5 @@ color: #dbd1d1;
   border: solid .3px #e23a2840;
   margin: 30px auto 0px auto;
 }
-
-
 @media only screen and (max-width: 369px) {}
 </style>
