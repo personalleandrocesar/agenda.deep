@@ -7,15 +7,16 @@
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rSete'></h4>
                 
                     </a> -->
-                    <!-- <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2008:00%20às%2009:00,%20me%20chamo%20">
+                    <!-- 
+                    <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2008:00%20às%2009:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rOito'></h4>
                 
                     </a>
+                -->
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2009:00%20às%2010:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rNove'></h4>
-                
+                        
                     </a>
-                -->
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2010:00%20às%2011:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDez'></h4>
                 
@@ -40,6 +41,7 @@
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rQuinze'></h4>
                 
                     </a>
+                    <!--
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2016:00%20às%2017:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDezesseis'></h4>
                 
@@ -48,14 +50,15 @@
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDezessete'></h4>
                 
                     </a>
-                    <!-- <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2018:00%20às%2019:00,%20me%20chamo%20">
+                         <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2018:00%20às%2019:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDezoito'></h4>
                 
-                    </a> -->
+                    </a> 
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2019:00%20às%2020:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDezenove'></h4>
-                
+                        
                     </a>
+                -->
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20segunda%20das%2020:00%20às%2021:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rVinte'></h4>
                 

@@ -11,14 +11,16 @@
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rOito'></h4>
                 
                     </a>
-                    <!-- <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20sábado%20das%2009:00%20às%2010:00,%20me%20chamo%20">
+                    <!-- 
+                        <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20sábado%20das%2009:00%20às%2010:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rNove'></h4>
                 
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20sábado%20das%2010:00%20às%2011:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDez'></h4>
                 
-                    </a> -->
+                    </a>
+                --> 
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20sábado%20das%2011:00%20às%2012:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rOnze'></h4>
                 
@@ -27,6 +29,7 @@
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDoze'></h4>
                 
                     </a>
+                    <!--
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20sábado%20das%2013:00%20às%2014:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rTreze'></h4>
                 
@@ -37,8 +40,9 @@
                     </a>
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20sábado%20das%2015:00%20às%2016:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rQuinze'></h4>
-                
+                        
                     </a>
+                -->
                     <div class="hr"></div>
                     <!--Distúrbios ginecológicos
                               Distúrbios gastrointestinais
