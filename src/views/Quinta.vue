@@ -28,10 +28,10 @@
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rDoze'></h4>
                 
                     </a> -->
-                    <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20quinta%20das%2013:00%20às%2014:00,%20me%20chamo%20">
+                    <!-- <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20quinta%20das%2013:00%20às%2014:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rTreze'></h4>
                 
-                    </a>
+                    </a> -->
                     <a href="https://api.whatsapp.com/send?phone=5521971305858%20&text=Ol%C3%A1%20Deep%20Acupuntura,%20quero%20marcar%20uma%20sess%C3%A3o%20pra%20quinta%20das%2014:00%20às%2015:00,%20me%20chamo%20">
                         <h4 class='dot-index' :class='{ selectTitleHover: aplicar }' v-html='rQuatorze'></h4>
                 
